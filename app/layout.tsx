@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { clsx } from "clsx";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://abdarwish-portfolio.vercel.app"),
+  metadataBase: new URL("https://portfolio-coleq0xxd-abdarwishs-projects.vercel.app"),
   title: {
     default: "Ahmed B. Darwish — AI Strategy Leader",
     template: "%s — Ahmed B. Darwish"
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Ahmed B. Darwish — AI Strategy Leader",
     description: "AI Strategy Leader | Multi-AI Agents Expert | GenAI Business Strategist.",
-    url: "https://abdarwish-portfolio.vercel.app",
+    url: "https://portfolio-coleq0xxd-abdarwishs-projects.vercel.app",
     siteName: "Ahmed Darwish Portfolio",
     locale: "en_US",
     type: "website"
