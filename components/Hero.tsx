@@ -1,4 +1,5 @@
 import { profile } from "@/data/profile";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -7,7 +8,17 @@ export default function Hero() {
         <div>
           <span className="badge">Available for consulting, freelance, and leadership roles</span>
           <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight">
-            {profile.name}
+            <span className="inline-flex items-center gap-3">
+              <Image
+                src="/images/Ahmed_Darwish_Photo_removebg.png"
+                alt={profile.name}
+                width={192}
+                height={192}
+                priority
+                className="rounded-full"
+              />
+              <span>{profile.name}</span>
+            </span>
           </h1>
           <p className="mt-3 text-lg text-muted max-w-prose">{profile.title}</p>
           <p className="mt-4 text-base leading-relaxed text-slate-300 max-w-prose">{profile.summary}</p>
