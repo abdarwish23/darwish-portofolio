@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  @apply bg-[color:var(--color-bg,theme(colors.background))] text-foreground antialiased;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-4 sm:px-6;
+}
+
+.section {
+  @apply py-12 sm:py-16 md:py-20;
+}
+
+.card {
+  @apply bg-white/5 backdrop-blur rounded-xl border border-white/10 shadow-soft;
+}
+
+.badge {
+  @apply inline-flex items-center rounded-full bg-primary/10 text-primary px-3 py-1 text-xs font-medium ring-1 ring-inset ring-primary/30;
+}
