@@ -10,7 +10,7 @@ export default function Hero() {
           <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight">
             <span className="inline-flex items-center gap-3">
               <Image
-                src="/images/Ahmed_Darwish_Photo_removebg.png"
+                src="/images/ahmed-darwish-photo.png"
                 alt={profile.name}
                 width={192}
                 height={192}
