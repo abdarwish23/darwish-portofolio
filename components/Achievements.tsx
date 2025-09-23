@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { profile } from "@/data/profile";
 
 export default function Achievements() {
@@ -12,7 +11,7 @@ export default function Achievements() {
               <h3 className="text-lg font-medium">{a.title}</h3>
               <p className="mt-2 text-sm text-slate-300">{a.description}</p>
               {a.link ? (
-                <Link href={a.link} target="_blank" className="mt-3 inline-flex text-accent text-sm hover:underline">View</Link>
+                <a href={a.link} target="_blank" rel="noopener noreferrer" className="mt-3 inline-flex text-accent text-sm hover:underline">View</a>
               ) : null}
             </div>
           ))}

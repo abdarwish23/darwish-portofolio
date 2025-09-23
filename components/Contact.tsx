@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { profile } from "@/data/profile";
 
 export default function Contact() {
@@ -12,8 +11,8 @@ export default function Contact() {
           </p>
           <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
             <a href={`mailto:${profile.email}`} className="inline-flex items-center rounded-md bg-primary px-4 py-2 text-black font-medium shadow-soft">Email Me</a>
-            <Link href={profile.links.find(l=>l.label==="LinkedIn")?.href || "#"} target="_blank" className="inline-flex items-center rounded-md border border-white/20 px-4 py-2 text-white font-medium hover:bg-white/10">LinkedIn</Link>
-            <Link href={profile.links.find(l=>l.label==="GitHub")?.href || "#"} target="_blank" className="inline-flex items-center rounded-md border border-white/20 px-4 py-2 text-white font-medium hover:bg-white/10">GitHub</Link>
+            <a href={profile.links.find(l=>l.label==="LinkedIn")?.href || "#"} target="_blank" rel="noopener noreferrer" className="inline-flex items-center rounded-md border border-white/20 px-4 py-2 text-white font-medium hover:bg-white/10">LinkedIn</a>
+            <a href={profile.links.find(l=>l.label==="GitHub")?.href || "#"} target="_blank" rel="noopener noreferrer" className="inline-flex items-center rounded-md border border-white/20 px-4 py-2 text-white font-medium hover:bg-white/10">GitHub</a>
           </div>
         </div>
       </div>

@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { patents } from "@/data/patents";
 
 export const metadata = {
@@ -20,10 +19,10 @@ export default function PatentsPage() {
               {p.summary ? <p className="mt-2 text-sm text-slate-300">{p.summary}</p> : null}
               <div className="mt-4 flex gap-3">
                 {p.pdf ? (
-                  <Link href={p.pdf} target="_blank" className="inline-flex items-center rounded-md border border-white/20 px-3 py-1.5 text-sm font-medium text-white hover:bg-white/10">View PDF</Link>
+                  <a href={p.pdf} target="_blank" rel="noopener noreferrer" className="inline-flex items-center rounded-md border border-white/20 px-3 py-1.5 text-sm font-medium text-white hover:bg-white/10">View PDF</a>
                 ) : null}
                 {p.link ? (
-                  <Link href={p.link} target="_blank" className="inline-flex items-center rounded-md bg-primary px-3 py-1.5 text-sm font-medium text-black hover:opacity-90">USPTO Link</Link>
+                  <a href={p.link} target="_blank" rel="noopener noreferrer" className="inline-flex items-center rounded-md bg-primary px-3 py-1.5 text-sm font-medium text-black hover:opacity-90">USPTO Link</a>
                 ) : null}
               </div>
             </article>

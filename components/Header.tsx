@@ -12,13 +12,13 @@ export default function Header() {
           <Link href="/#projects" className="hover:text-white transition-colors">Projects</Link>
           <Link href="/patents" className="hover:text-white transition-colors">Patents</Link>
           {profile.links.map((l) => (
-            <Link key={l.href} href={l.href} target="_blank" className="hover:text-white transition-colors">
+            <a key={l.href} href={l.href} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
               {l.label}
-            </Link>
+            </a>
           ))}
-          <Link href="/docs/CV_AHMED_DARWISH_21092025.pdf" target="_blank" className="inline-flex items-center rounded-md border border-white/20 px-3 py-1.5 text-sm font-medium text-white hover:bg-white/10">
+          <a href="/docs/CV_AHMED_DARWISH_21092025.pdf" target="_blank" rel="noopener noreferrer" className="inline-flex items-center rounded-md border border-white/20 px-3 py-1.5 text-sm font-medium text-white hover:bg-white/10">
             Download CV
-          </Link>
+          </a>
           <Link href="#contact" className="ml-2 inline-flex items-center rounded-md bg-primary px-3 py-1.5 text-sm font-medium text-black hover:opacity-90">
             Contact
           </Link>
