@@ -1,4 +1,5 @@
 import { patents } from "@/data/patents";
+import Link from "next/link";
 
 export const metadata = {
   title: "Granted Patents — Ahmed B. Darwish",
@@ -9,6 +10,12 @@ export default function PatentsPage() {
   return (
     <main className="section">
       <div className="container">
+        <Link href="/" className="inline-flex items-center text-sm text-muted hover:text-white mb-6">
+          <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+          </svg>
+          Back to Home
+        </Link>
         <h1 className="text-3xl font-bold tracking-tight">Granted Patents</h1>
         <p className="mt-2 text-muted max-w-prose">Granted patents and application records related to AI, blockchain, and telecommunications.</p>
         <div className="mt-8 grid gap-6 md:grid-cols-2">

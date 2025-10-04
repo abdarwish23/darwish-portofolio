@@ -139,7 +139,7 @@ export const profile: Profile = {
     {
       title: "2 Granted USPTO Patents",
       description: "Patents in AI, blockchain, and telecommunications technologies.",
-      link: "https://patentcenter.uspto.gov/applications/18006948"
+      link: "/patents"
     },
     {
       title: "2nd Place R-Pitch 2023-2024 — ZenSpace AI",
