@@ -36,7 +36,7 @@ export default function Awards() {
             collection of achievements—carefully preserved in a folder I carry with me wherever I go—represents more than
             accolades; it embodies a lifelong commitment to continuous learning and excellence. Throughout my professional
             career, I have earned recognition from leading organizations including STC, and completed prestigious certifications
-            such as IBM's Data Science Professional Certificate, PMP, Leadership Development programs, and NEBOSH Health &
+            such as IBM&apos;s Data Science Professional Certificate, PMP, Leadership Development programs, and NEBOSH Health &
             Safety credentials, among many others. Each certificate and award reflects not just achievement, but a dedication
             to mastery and professional growth that continues to drive my work in AI innovation today.
           </p>
