@@ -112,45 +112,45 @@ export const profile: Profile = {
   projects: [
     {
       title: "Advanced AI Chatbots using No-Code Tools",
-      summary: "Designed and deployed advanced AI chatbots leveraging no-code platforms (Flowise, n8n, Langflow). Demonstrated expertise in workflow automation, prompt engineering, and rapid prototyping for business solutions. Skills: No-code AI, workflow design, integration, conversational AI, automation.",
+      summary: "Designed and deployed advanced AI chatbots leveraging no-code platforms including Flowise, n8n, and Langflow.\n\nDemonstrated expertise in workflow automation, prompt engineering, and rapid prototyping for business solutions.\n\nKey skills: No-code AI development, workflow design, system integration, conversational AI, and intelligent automation.",
       tags: ["Flowise", "n8n", "Langflow", "No-Code", "Prompt Engineering", "Automation", "Conversational AI"],
       image: "/images/Advanced_chatbots_no_codes.jpeg"
     },
     {
+      title: "Advanced AI Chatbots with Local LLMs",
+      summary: "Architected and designed advanced AI chatbot systems leveraging small local LLM models for cost-effective and private deployments.\n\nEngineered a strategic system design that optimizes performance through intelligent prompt engineering and resource-efficient architecture, enabling enterprise-grade solutions with constrained models.\n\nKey skills: System architecture design, local LLM deployment strategy, prompt engineering, AI integration, edge AI architecture, resource optimization, and privacy-focused system design.",
+      tags: ["System Design", "Architecture", "Local LLM", "Prompt Engineering", "AI Integration", "Edge AI"],
+      image: "/images/Local_LLM_Architecture.png"
+    },
+    {
       title: "Automatic DriveTest Route Creation",
-      summary: "Built a system for automated DriveTest route generation using FastAPI, Python, and OpenMaps. Demonstrated skills in geospatial data processing, backend API development, and telecom RAN automation. Skills: FastAPI, Python, OpenMaps, DriveTest, RAN, Mobile Network, Geospatial Analysis, API Design.",
+      summary: "Built an automated system for DriveTest route generation using FastAPI, Python, and OpenMaps.\n\nStreamlined geospatial data processing and backend API development for telecom RAN optimization.\n\nKey skills: FastAPI development, Python automation, OpenMaps integration, DriveTest methodology, mobile network optimization, geospatial analysis, and API design.",
       tags: ["FastAPI", "Python", "OpenMaps", "DriveTest", "RAN", "Mobile Network", "Geospatial", "API"],
       image: "/images/AutoDrive_test.jpg"
     },
     {
-      title: "EasyOokla: Automated Network Analysis",
-      summary: "Developed EasyOokla for automated analysis of Ookla speed test data. Automated data collection, analysis, and reporting for network performance. Skills: Data Analysis, Automation, Network Analysis, Python, Reporting, Ookla.",
-      tags: ["Ookla", "Data Analysis", "Automation", "Network Analysis", "Python", "Reporting"],
-      image: "/images/EasyOokla.png"
-    },
-    {
       title: "YOLOv10 Site Manager Image Detection",
-      summary: "End-to-end computer vision pipeline for site management and safety compliance. Skills: YOLOv10, Computer Vision, FastAPI, Image Processing, Safety Compliance.",
+      summary: "Developed an end-to-end computer vision pipeline for site management and safety compliance monitoring.\n\nImplemented real-time object detection and safety violation identification for telecom site operations.\n\nKey skills: YOLOv10 model deployment, computer vision, FastAPI development, image processing, and safety compliance automation.",
       tags: ["YOLOv10", "Computer Vision", "FastAPI", "Image Processing", "Safety"],
       image: "/images/Image_detection_site_manager.png"
     },
     {
       title: "Health and Safety AI Detection",
-      summary: "AI-powered computer vision system for workplace health and safety compliance. Demonstrated skills in model deployment, safety analytics, and compliance automation. Skills: Computer Vision, YOLOv9, Safety Analytics, Compliance, Model Deployment.",
+      summary: "Developed an AI-powered computer vision system for workplace health and safety compliance monitoring.\n\nImplemented automated detection of safety violations and compliance tracking for enhanced workplace security.\n\nKey skills: Computer vision, YOLOv9 implementation, safety analytics, compliance automation, and production model deployment.",
       tags: ["YOLOv9", "Computer Vision", "Safety", "Analytics", "Compliance"],
       image: "/images/Health_and_safety.jpeg"
     },
     {
-      title: "Advanced AI Chatbots with Local LLMs",
-      summary: "Built advanced AI chatbots using small local LLM models without finetuning. Demonstrated skills in LLM integration, prompt engineering, and resource-efficient AI deployment. Skills: Local LLM, Prompt Engineering, AI Integration, Edge AI, Resource Optimization.",
-      tags: ["Local LLM", "Prompt Engineering", "AI Integration", "Edge AI", "Resource Optimization"],
-      image: "/images/Local_LLM_Architecture.png"
+      title: "Multi-AI Agents Platform (Telecom)",
+      summary: "Designed and architected an enterprise-scale multi-AI agent platform enabling zero-touch network automation with successful proof of concept.\n\nLed strategic architecture design and system integration for autonomous telecom operations and intelligent orchestration.\n\nKey skills: Multi-agent system architecture, strategic AI design, telecom automation, system integration, orchestration, and enterprise solution architecture.",
+      tags: ["Multi-Agent", "Telecom", "Automation", "System Integration", "Orchestration", "Architecture"],
+      image: "/images/Telecom_multi_ai_agents.png"
     },
     {
-      title: "Multi-AI Agents Platform (Telecom)",
-      summary: "Enterprise-scale orchestration enabling zero-touch network automation with successful PoC. Skills: Multi-Agent Systems, Telecom Automation, System Integration, Orchestration.",
-      tags: ["Multi-Agent", "Telecom", "Automation", "System Integration", "Orchestration"],
-      image: "/images/Telecom_multi_ai_agents.png"
+      title: "EasyOokla: Automated Network Analysis",
+      summary: "Developed EasyOokla, a desktop application for automated analysis of Ookla speed test data.\n\nStreamlined data collection, analysis, and reporting for comprehensive network performance insights.\n\nKey skills: Data analysis, automation engineering, network performance analysis, Python development, and reporting systems.",
+      tags: ["Ookla", "Data Analysis", "Automation", "Network Analysis", "Python", "Reporting"],
+      image: "/images/EasyOokla.png"
     }
   ],
   awards: [
@@ -169,17 +169,23 @@ export const profile: Profile = {
       link: "https://bitly.cx/dn46c"
     },
     {
+      title: "Certificate of Achievement for IP Excellence",
+      summary: "Recognized by Rakuten's Patent League for outstanding innovation leadership.",
+      tags: ["Innovation", "IP Excellence", "Leadership"],
+      image: "/images/driving_innovation2.jpg",
+      link: "https://bitly.cx/pZxK"
+    },
+    {
       title: "Tokyo AI Speaker — Multi-AI Agents",
       summary: "Delivered a keynote speech at TokyoAI on the future of Multi-AI Agents. Demonstrated skills in public speaking, AI strategy, and industry thought leadership.",
       tags: ["Public Speaking", "AI Strategy", "Multi-Agent", "Thought Leadership"],
       image: "/images/tokyo_ai_presentation.png"
     },
     {
-      title: "Certificate of Achievement for IP Excellence",
-      summary: "Recognized by Rakuten's Patent League for outstanding innovation leadership.",
-      tags: ["Innovation", "IP Excellence", "Leadership"],
-      image: "/images/driving_innovation2.jpg",
-      link: "https://bitly.cx/pZxK"
+      title: "Rakuten Mobile Innovation Award",
+      summary: "Honored to receive the Rakuten Mobile Innovation Award for contributions in the E2E Performance and Capacity Department.\n\nLed the development of Phase 1 of AI Maestro, a pioneering product transforming E2E network performance using AI. Navigated significant privacy and security challenges by exclusively using locally self-hosted LLMs, rigorously testing hundreds of LLMs, frameworks, and tools to deliver real-world AI applications.\n\nBuilt an intelligent root cause analysis engine for critical core KPIs, demonstrating that innovation comes from challenging norms and building what doesn't yet exist.",
+      tags: ["Innovation", "AI Product", "Root Cause Analysis", "Privacy", "Security", "Local LLM", "Network Performance"],
+      image: "/images/Innovation_award.jpeg"
     }
   ]
 };
