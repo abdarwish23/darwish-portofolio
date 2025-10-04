@@ -19,6 +19,15 @@ export default function Experience() {
             </div>
           ))}
         </div>
+        <div className="mt-8 p-6 bg-slate-800/30 rounded-lg border border-slate-700/50">
+          <p className="text-sm text-slate-300 leading-relaxed">
+            My telecommunications career began in 2007 as a DriveTest Engineer in Egypt, where I built a strong foundation
+            in mobile network analysis and field operations. I then advanced my career in Saudi Arabia, working on telecom
+            installations, network optimization, and large-scale mobile infrastructure projects. This hands-on experience
+            across multiple markets provided me with deep technical expertise and a comprehensive understanding of
+            telecommunications systems, which continues to inform my AI and innovation work today.
+          </p>
+        </div>
       </div>
     </section>
   );
