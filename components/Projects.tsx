@@ -27,6 +27,15 @@ export default function Projects() {
             </article>
           ))}
         </div>
+        <div className="mt-8 p-6 bg-slate-800/30 rounded-lg border border-slate-700/50">
+          <p className="text-sm text-slate-300 leading-relaxed">
+            The projects showcased above represent some of my recent work over the past 4 years in AI and telecommunications.
+            I have designed, developed, and deployed many additional projects spanning automation, data analytics, computer vision,
+            and network optimization—many of which are proprietary to the companies I've worked with and cannot be publicly shared.
+            These highlighted projects demonstrate my approach to solving complex challenges through cutting-edge technology, though
+            they represent only a portion of the work I've accomplished throughout my career.
+          </p>
+        </div>
       </div>
     </section>
   );

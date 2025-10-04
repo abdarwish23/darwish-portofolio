@@ -29,6 +29,18 @@ export default function Awards() {
             </article>
           ))}
         </div>
+        <div className="mt-8 p-6 bg-slate-800/30 rounded-lg border border-slate-700/50">
+          <p className="text-sm text-slate-300 leading-relaxed">
+            Excellence has been a defining thread throughout my journey in life, beginning in elementary school where I consistently
+            ranked among the top 5 students, earning numerous Academic Excellence Certificates and Good Conduct and Behavior Certificates—a pattern that continued through intermediate and secondary education, and throughout my college years, culminating in my graduation with a degree in Electrical and Computer Engineering from Egypt. This
+            collection of achievements—carefully preserved in a folder I carry with me wherever I go—represents more than
+            accolades; it embodies a lifelong commitment to continuous learning and excellence. Throughout my professional
+            career, I have earned recognition from leading organizations including STC, and completed prestigious certifications
+            such as IBM's Data Science Professional Certificate, PMP, Leadership Development programs, and NEBOSH Health &
+            Safety credentials, among many others. Each certificate and award reflects not just achievement, but a dedication
+            to mastery and professional growth that continues to drive my work in AI innovation today.
+          </p>
+        </div>
       </div>
     </section>
   );
