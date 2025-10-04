@@ -111,49 +111,75 @@ export const profile: Profile = {
   ],
   projects: [
     {
-      title: "Advanced SQL Agent (LangGraph)",
-      summary: "Production-ready multi-agent SQL assistant with self-correction and hallucination mitigation.",
-      tags: ["LangGraph", "Agents", "RAG", "SQL"],
-      image: "/images/Sql_agent.png"
+      title: "Advanced AI Chatbots using No-Code Tools",
+      summary: "Designed and deployed advanced AI chatbots leveraging no-code platforms (Flowise, n8n, Langflow). Demonstrated expertise in workflow automation, prompt engineering, and rapid prototyping for business solutions. Skills: No-code AI, workflow design, integration, conversational AI, automation.",
+      tags: ["Flowise", "n8n", "Langflow", "No-Code", "Prompt Engineering", "Automation", "Conversational AI"],
+      image: "/images/Advanced_chatbots_no_codes.jpeg"
     },
     {
-      title: "Multi-AI Agents Platform (Telecom)",
-      summary: "Enterprise-scale orchestration enabling zero-touch network automation with successful PoC.",
-      tags: ["Multi-Agent", "Telecom", "Automation"],
-      image: "/images/Telecom_multi_ai_agents.png"
+      title: "Automatic DriveTest Route Creation",
+      summary: "Built a system for automated DriveTest route generation using FastAPI, Python, and OpenMaps. Demonstrated skills in geospatial data processing, backend API development, and telecom RAN automation. Skills: FastAPI, Python, OpenMaps, DriveTest, RAN, Mobile Network, Geospatial Analysis, API Design.",
+      tags: ["FastAPI", "Python", "OpenMaps", "DriveTest", "RAN", "Mobile Network", "Geospatial", "API"],
+      image: "/images/AutoDrive_test.jpg"
+    },
+    {
+      title: "EasyOokla: Automated Network Analysis",
+      summary: "Developed EasyOokla for automated analysis of Ookla speed test data. Automated data collection, analysis, and reporting for network performance. Skills: Data Analysis, Automation, Network Analysis, Python, Reporting, Ookla.",
+      tags: ["Ookla", "Data Analysis", "Automation", "Network Analysis", "Python", "Reporting"],
+      image: "/images/EasyOokla.png"
     },
     {
       title: "YOLOv10 Site Manager Image Detection",
-      summary: "End-to-end computer vision pipeline for site management and safety compliance.",
-      tags: ["YOLOv10", "Computer Vision", "FastAPI"],
+      summary: "End-to-end computer vision pipeline for site management and safety compliance. Skills: YOLOv10, Computer Vision, FastAPI, Image Processing, Safety Compliance.",
+      tags: ["YOLOv10", "Computer Vision", "FastAPI", "Image Processing", "Safety"],
       image: "/images/Image_detection_site_manager.png"
     },
     {
-      title: "YOLOv9 H&S AI Image Detection",
-      summary: "Computer vision system improving workplace safety compliance.",
-      tags: ["YOLOv9", "Computer Vision"],
-      image: "/images/Image_detection_yolo_models.png"
+      title: "Health and Safety AI Detection",
+      summary: "AI-powered computer vision system for workplace health and safety compliance. Demonstrated skills in model deployment, safety analytics, and compliance automation. Skills: Computer Vision, YOLOv9, Safety Analytics, Compliance, Model Deployment.",
+      tags: ["YOLOv9", "Computer Vision", "Safety", "Analytics", "Compliance"],
+      image: "/images/Health_and_safety.jpeg"
+    },
+    {
+      title: "Advanced AI Chatbots with Local LLMs",
+      summary: "Built advanced AI chatbots using small local LLM models without finetuning. Demonstrated skills in LLM integration, prompt engineering, and resource-efficient AI deployment. Skills: Local LLM, Prompt Engineering, AI Integration, Edge AI, Resource Optimization.",
+      tags: ["Local LLM", "Prompt Engineering", "AI Integration", "Edge AI", "Resource Optimization"],
+      image: "/images/Local_LLM_Architecture.png"
+    },
+    {
+      title: "Multi-AI Agents Platform (Telecom)",
+      summary: "Enterprise-scale orchestration enabling zero-touch network automation with successful PoC. Skills: Multi-Agent Systems, Telecom Automation, System Integration, Orchestration.",
+      tags: ["Multi-Agent", "Telecom", "Automation", "System Integration", "Orchestration"],
+      image: "/images/Telecom_multi_ai_agents.png"
     }
   ],
-  achievements: [
+  awards: [
     {
       title: "2 Granted USPTO Patents",
-      description: "Patents in AI, blockchain, and telecommunications technologies.",
+      summary: "USPTO Grant US 12308894 B2: System, method, and medium for blockchain-enabled microwave antennas.\n\nUSPTO Grant US 12328299 B2: System, method and non-transitory computer readable medium for an internet-enabled network radio node.\n\nBoth patents demonstrate innovation in AI, blockchain, and telecommunications technologies. Additional patent applications are currently under review with the USPTO.",
+      tags: ["Patent", "AI", "Blockchain", "Telecommunications", "USPTO"],
+      image: "/images/patent_banar2.jpeg",
       link: "/patents"
     },
     {
-      title: "2nd Place R-Pitch 2023-2024 — ZenSpace AI",
-      description: "Strategic AI product development for interior design using AI.",
+      title: "2nd Place R-Pitch — ZenSpace AI",
+      summary: "Achieved 2nd place at R-Pitch for ZenSpace AI, leading all aspects: financial planning, forecasting, pitch presentations, technical architecture, system design, AI product strategy, and market research. Recognized by Rakuten CEO.",
+      tags: ["Financial Planning", "Forecasting", "Pitching", "Technical Architecture", "System Design", "AI Product Strategy", "Market Research"],
+      image: "/images/ZenSpaceAI_Pitch.png",
       link: "https://bitly.cx/dn46c"
     },
     {
-      title: "Certificate of Achievement for IP Excellence",
-      description: "Recognized by Rakuten's Patent League for outstanding innovation leadership.",
-      link: "https://bitly.cx/pZxK"
+      title: "Tokyo AI Speaker — Multi-AI Agents",
+      summary: "Delivered a keynote speech at TokyoAI on the future of Multi-AI Agents. Demonstrated skills in public speaking, AI strategy, and industry thought leadership.",
+      tags: ["Public Speaking", "AI Strategy", "Multi-Agent", "Thought Leadership"],
+      image: "/images/tokyo_ai_presentation.png"
     },
     {
-      title: "Tokyo AI Speaker — Exploring the Future of Multi-AI Agents",
-      description: "Talk on how agentic systems will transform industries."
+      title: "Certificate of Achievement for IP Excellence",
+      summary: "Recognized by Rakuten's Patent League for outstanding innovation leadership.",
+      tags: ["Innovation", "IP Excellence", "Leadership"],
+      image: "/images/driving_innovation2.jpg",
+      link: "https://bitly.cx/pZxK"
     }
   ]
 };

@@ -17,9 +17,11 @@ export type Project = {
   link?: string;
 };
 
-export type Achievement = {
+export type Award = {
   title: string;
-  description: string;
+  summary: string;
+  tags: string[];
+  image?: string;
   link?: string;
 };
 
@@ -34,5 +36,5 @@ export type Profile = {
   skills: { category: string; items: string[] }[];
   experiences: Experience[];
   projects: Project[];
-  achievements: Achievement[];
+  awards: Award[];
 };

@@ -4,7 +4,7 @@ import Hero from "@/components/Hero";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
-import Achievements from "@/components/Achievements";
+import Awards from "@/components/Achievements";
 import Contact from "@/components/Contact";
 
 export default function Page() {
@@ -15,8 +15,8 @@ export default function Page() {
         <Hero />
         <Skills />
         <Projects />
+        <Awards />
         <Experience />
-        <Achievements />
         <Contact />
       </main>
       <Footer />

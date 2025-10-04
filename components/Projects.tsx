@@ -10,7 +10,7 @@ export default function Projects() {
           {profile.projects.map((p) => (
             <article key={p.title} className="card overflow-hidden">
               {p.image ? (
-                <div className="relative h-48 w-full">
+                <div className="relative h-64 w-full">
                   {/* Place images into public/images/ to make these work */}
                   <Image src={p.image} alt={p.title} fill className="object-cover" />
                 </div>

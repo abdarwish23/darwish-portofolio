@@ -1,5 +1,6 @@
 import { patents } from "@/data/patents";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
   title: "Granted Patents — Ahmed B. Darwish",
@@ -17,7 +18,18 @@ export default function PatentsPage() {
           Back to Home
         </Link>
         <h1 className="text-3xl font-bold tracking-tight">Granted Patents</h1>
-        <p className="mt-2 text-muted max-w-prose">Granted patents and application records related to AI, blockchain, and telecommunications.</p>
+        <p className="mt-2 text-muted">Granted patents and application records related to AI, blockchain, and telecommunications.</p>
+        <p className="mt-4 text-slate-300">
+          My patent portfolio reflects a commitment to innovation at the intersection of emerging technologies.
+          With two granted USPTO patents and additional applications under review, my work demonstrates expertise
+          in developing novel solutions for blockchain-enabled network infrastructure and internet-connected radio systems.
+          These innovations address critical challenges in modern telecommunications, combining AI, blockchain, and
+          advanced networking technologies to create more efficient, secure, and scalable systems. Each patent represents
+          not only technical achievement but also strategic thinking about the future of connected infrastructure.
+        </p>
+        <div className="relative w-full h-96 mt-8 rounded-lg overflow-hidden">
+          <Image src="/images/patent_banar2.jpeg" alt="Patents" fill className="object-cover" />
+        </div>
         <div className="mt-8 grid gap-6 md:grid-cols-2">
           {patents.map((p) => (
             <article key={(p.number || p.title)} className="card p-6">
