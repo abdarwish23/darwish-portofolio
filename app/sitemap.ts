@@ -1,13 +1,21 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://abdarwish-portfolio.vercel.app";
-  const routes = ["/", "/patents", "/#projects", "/#experience", "/#achievements", "/#contact" ];
+  const base = "https://www.abdarwish.com";
   const now = new Date();
-  return routes.map((r) => ({
-    url: `${base}${r}`,
-    lastModified: now,
-    changeFrequency: "monthly",
-    priority: r === "/" ? 1 : 0.7,
-  }));
+
+  return [
+    {
+      url: base,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 1.0,
+    },
+    {
+      url: `${base}/patents`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    },
+  ];
 }
