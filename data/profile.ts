@@ -111,6 +111,12 @@ export const profile: Profile = {
   ],
   projects: [
     {
+      title: "IdeaSketch SaaS Product",
+      summary: "Built IdeaSketch, a production-ready SaaS application powered by LangGraph for intelligent workflow orchestration.\n\nDeployed using LangGraph Studio with a modern Vite.js frontend, leveraging Supabase for database management and authentication.\n\nKey skills: LangGraph architecture, SaaS development, Vite.js, Supabase, authentication systems, database design, and full-stack development.",
+      tags: ["SaaS", "LangGraph", "Vite.js", "Supabase", "Authentication", "Full-Stack", "AI Workflow"],
+      image: "/images/IdeaSketch.jpeg"
+    },
+    {
       title: "Advanced AI Chatbots using No-Code Tools",
       summary: "Designed and deployed advanced AI chatbots leveraging no-code platforms including Flowise, n8n, and Langflow.\n\nDemonstrated expertise in workflow automation, prompt engineering, and rapid prototyping for business solutions.\n\nKey skills: No-code AI development, workflow design, system integration, conversational AI, and intelligent automation.",
       tags: ["Flowise", "n8n", "Langflow", "No-Code", "Prompt Engineering", "Automation", "Conversational AI"],
