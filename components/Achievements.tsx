@@ -9,7 +9,16 @@ export default function Awards() {
         <div className="mt-6 grid gap-6 md:grid-cols-2">
           {profile.awards.map((a) => (
             <article key={a.title} className="card overflow-hidden">
-              {a.image ? (
+              {a.images && a.images.length === 2 ? (
+                <div className="flex h-64 gap-1">
+                  <div className="relative w-[70%]">
+                    <Image src={a.images[0]} alt={`${a.title} - Main`} fill className="object-cover" />
+                  </div>
+                  <div className="relative w-[30%]">
+                    <Image src={a.images[1]} alt={`${a.title} - Ceremony`} fill className="object-cover" />
+                  </div>
+                </div>
+              ) : a.image ? (
                 <div className="relative h-64 w-full">
                   <Image src={a.image} alt={a.title} fill className="object-cover" />
                 </div>

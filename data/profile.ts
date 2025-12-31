@@ -161,6 +161,13 @@ export const profile: Profile = {
   ],
   awards: [
     {
+      title: "Passionately Professional Award — Rakuten Mobile CEO",
+      summary: "Honored to receive the Quarterly Network Division 'Passionately Professional' Award from Sharad Sriwastawa, Co-CEO of Rakuten Mobile, in Q3 2025.\n\nThis recognition reflects achievements in designing and leading AI Maestro, a multi-agent AI system integrating automated KPI analysis, intelligent document search, and innovative visualizations for location-based insights. Achieved 9,600 annual work hour savings and accelerated troubleshooting & Root Cause Analysis by ~80%, significantly enhancing productivity and delivering substantial business impact.\n\nRecognized for what can be achieved when strong principles meet trust, teamwork, and disciplined execution.",
+      tags: ["CEO Award", "Multi-Agent AI", "KPI Analysis", "Productivity", "Business Impact", "Innovation", "Leadership"],
+      images: ["/images/passionately_professional_slide.jpg", "/images/passionately_professional_award_ceremony.jpg"],
+      link: "https://www.linkedin.com/posts/abdarwish_rakutenmobile-innovation-innovation-activity-7407846854647799808-HdNt"
+    },
+    {
       title: "2 Granted USPTO Patents",
       summary: "USPTO Grant US 12308894 B2: System, method, and medium for blockchain-enabled microwave antennas.\n\nUSPTO Grant US 12328299 B2: System, method and non-transitory computer readable medium for an internet-enabled network radio node.\n\nBoth patents demonstrate innovation in AI, blockchain, and telecommunications technologies. Additional patent applications are currently under review with the USPTO.",
       tags: ["Patent", "AI", "Blockchain", "Telecommunications", "USPTO"],

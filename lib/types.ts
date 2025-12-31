@@ -22,6 +22,7 @@ export type Award = {
   summary: string;
   tags: string[];
   image?: string;
+  images?: string[];
   link?: string;
 };
 
