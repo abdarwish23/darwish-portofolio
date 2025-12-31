@@ -9,6 +9,8 @@ export default function Header() {
           Ahmed B. Darwish
         </Link>
         <nav className="flex items-center gap-4 text-sm text-muted">
+          <Link href="/#experience" className="hover:text-white transition-colors">Experience</Link>
+          <Link href="/#awards" className="hover:text-white transition-colors">Awards</Link>
           <Link href="/#projects" className="hover:text-white transition-colors">Projects</Link>
           <Link href="/patents" className="hover:text-white transition-colors">Patents</Link>
           {profile.links.map((l) => (
